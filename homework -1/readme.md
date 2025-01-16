@@ -2,16 +2,16 @@
 
 ### Websites vs Web Applications
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+Web.App is programs used to make code for websites. Web applications are hidden when the website is published to the internet.
 
 ### VS Code & Extensions
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+VS Code is where we will put our code. Extensions were added to VSC to make our life EZ with shortcuts we will use offten!
 
 ### Version Control, Git, & GitHub
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+Version ctrl is the updated verion on my computer. Git is a entension added to VSC to publish files (for this class) on GitHub like a thread.
 
 ### Markdown & Documentation
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+Markdown is saved notes of how we write code/ snipts of code to help. Documentation takes these in crono order to help others recreate/ understand your code.
