@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join a social network</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="moreforms.html">More Forms</a></li>
+      </ul>
+    </nav>
+    <h1>Join a Social Network</h1>
+    <form action="index.html" method="Post">
+      <div>
+        <label for="Fullname">Full name:</label>
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="Abazaba caraba"
+          required
+        />
+      </div>
+      <div>
+        <label for="Email">Email Adress:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Hola.MyPeeps@aol.com"
+          required
+        />
+      </div>
+      <div>
+        <label for="About">About you:</label>
+        <textarea
+          name="about"
+          id="about"
+          rows="3"
+          cols="50"
+          placeholder="This. and That. xoxo"
+        ></textarea>
+      </div>
+      <div>
+        <label for="file">Photo:</label
+        ><input type="picture" name="picture" id="picture" />
+      </div>
+      <div><label for="Color">Color:</label> <input type="color" /></div>
+      <div><input type="submit" value="Submit" /></div>
+    </form>
+  </body>
+</html>
