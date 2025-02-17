@@ -11,3 +11,5 @@ Had fun playng with Css margins and paddings for everything. Most images have a 
 ### Live Link
 
 [Blog Page](https://SavvyRoseSt.github.io/sp25/homework-2)
+
+https://github.com/SavvyRoseSt/sp25/tree/main/homework-2
