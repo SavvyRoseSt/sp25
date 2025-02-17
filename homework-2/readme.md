@@ -10,4 +10,4 @@ Had fun playng with Css margins and paddings for everything. Most images have a 
 
 ### Live Link
 
-http://127.0.0.1:5500/homework-2/index.html
+[Blog Page](https://SavvyRoseSt.github.io/sp25/homework-2)
