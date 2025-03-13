@@ -6,6 +6,15 @@ console.table(munch);
 
 // Reaction effects healing time / relationship
 
+function attack(sad) {
+    const Hp = this.Hp - [2];
+    if (Hp <= 3) {
+        return 0;
+    } else {
+        return Hp;
+    }
+};
+
 // objects
 const Mango = {
     // properties (variables that belong to this object)
@@ -15,6 +24,7 @@ const Mango = {
     Like: "Love!",
 
     //Methods (function that belongs to object)
+    Hp: Hp,
     kiss() {return this.reaction;},
 
     imprinted_on_you(friends_for_life){
@@ -28,6 +38,7 @@ const Beans = {
     Heal_Time: "1 hr",
     Like: "Meh...",
 
+    Hp: Hp,
     sideeye() {return this.reaction;},
 };
 
@@ -37,6 +48,7 @@ const Roach = {
     Heal_Time: "30 mins",
     Like: "Enjoys playing with bug.",
 
+    Hp: Hp,
     hyper() {return this.reaction;},
 };
 
@@ -46,7 +58,8 @@ const Cheese = {
     Heal_Time: "7 yrs",
     Like: "lacks nutrition needed",
 
-    grumpy() {return this.reaction;},
+    Hp: Hp,
+    grumpy(Sad) {return this.reaction;},
 
     irritable(bitesHand){
         this.Hp -= bitesHand;
@@ -59,6 +72,7 @@ const Rotten = {
     Heal_Time: "only has 15 min to live",
     Like: "Disgusted,....No! Turns Dil into Zombie...",
 
+    Hp: Hp,
     disgust() {return this.reaction;},
 
     zombie(bitesFaceOff){
@@ -66,6 +80,19 @@ const Rotten = {
     },
 };
 
-function showHp() {
-    console.log("Hp:". this.Hp)
-}
+ console.log("Hp:". this.Hp)
+ 
+function attack(Sad) {
+    console.log("Bites Your Hand..."),
+    console.log("Abandons you to preadators,..Run...")
+};
+
+function destroy() {
+    console.log("Dil's tribe comes for Revenge..",
+        console.log("Zombie Outbreak Spreads..."),
+        console.log("...Way to go! You killed the planet faster than pollution..."))
+    };
+
+if (this.Hp >= 5.5) {
+    console.log("Happy Ending");} else {
+    console.log("No One is Happy...Ending");};
