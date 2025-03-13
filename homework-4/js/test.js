@@ -51,3 +51,19 @@ console.log(titleRef);
 
 const itemsRef = document.getElementsByClassName("item");
 console.log(itemsRef);
+//----------- Reaction
+function attack() {
+    const Hp = this.Hp
+    console.log("Bites Your Hand..."),
+    console.log("Abandons you to preadators,..Run...")
+};
+
+function destroy() {
+    console.log("Dil's tribe comes for Revenge..",
+        console.log("Zombie Outbreak Spreads..."),
+        console.log("...Way to go! You killed the planet faster than pollution..."))
+    };
+
+if (this.Hp >= 5.5) {
+    console.log("Happy Ending");} else {
+    console.log("No One is Happy...Ending");};
