@@ -21,13 +21,17 @@ Used in background changing gradient, map and h1 color.
 ###### general example for: Home.html
 
 < nav>
+
 < section> hero (carousel)
-< script src="mocCarousel.js"></></>
+
+     < script src="mocCarousel.js"></></>
 
 < section> Interactive Map
-< script src="tribemap.js"></></>
+
+     < script src="tribemap.js"></></>
 
 < div> Vid of How Moccasins are Made</>
+
 < footer>
 
 ##### something like this for: Pair1.html
@@ -35,13 +39,19 @@ Used in background changing gradient, map and h1 color.
 turntable ex: https://www.gnomon.edu/
 
 < nav >
+
 < div > hero (Turntable)
-< media > Charater vid on loop </>
-< script src="turntbl.js"></></> (To control turntable rotation with click and drag)
+
+     < media > Charater vid on loop </>
+
+     < script src="turntbl.js"></></> (To control turntable rotation with click and drag)
 
 < aside> Map of Region </>
-< div> < h1>Tribe Name</>
-< p>Info Lorem....</></>
+
+< div> < h1> Tribe Name </>
+
+< p> Info Lorem....</></>
+
 < footer>
 
 /////////////////////////////////////////////////////////////////////
@@ -70,13 +80,16 @@ Colors grabbed from bag's image. Used as background for each sections question. 
 https://www.history.com/topics/native-american-history
 
 < nav>
+
 < hero> Bag Image infgraphic point out each color
-ex: https://pin.it/7wDuhq1Ta
+[ex: https://pin.it/7wDuhq1Ta]
 
 < section> (or maybe grid)
 How long? What the pattern means?</>
+
 < section>
 What Materials? How they made dye & dyed it?</>
+
 < footer>
 
 ##### something like this for: Bandolierinfo.html
@@ -84,17 +97,23 @@ What Materials? How they made dye & dyed it?</>
 https://purple.com/purple-grid
 
 < nav>
+
 < hero> main video + width: 100%
+
 < section> Left Vid1  
  < aside> Right discription/answer</>
 </>
+
 < section> Left discription/answer
 < aside> Right Vid2</>
 </>
+
 < section> Left Vid3  
  < aside> Right discription/answer</>
 </>
+
 < section> Left discription/answer
 < aside> Right Vid4</>
 </>
+
 < Footer>
