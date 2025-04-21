@@ -20,31 +20,31 @@ Used in background changing gradient, map and h1 color.
 
 ###### general example for: Home.html
 
-[<nav>
+< nav>
+< section> hero (carousel)
+< script src="mocCarousel.js"></></>
 
-<section> hero (carousel)
-    <script src="mocCarousel.js"></script></section>
-<section>Interactive Map
-    <script src="tribemap.js"></script></section>
-<div> Vid of How Moccasins are Made</div>
-<footer>]
+< section> Interactive Map
+< script src="tribemap.js"></></>
+
+< div> Vid of How Moccasins are Made</>
+< footer>
 
 ##### something like this for: Pair1.html
 
 turntable ex: https://www.gnomon.edu/
 
-{<nav>
+< nav >
+< div > hero (Turntable)
+< media > Charater vid on loop </>
+< script src="turntbl.js"></></> (To control turntable rotation with click and drag)
 
-<div> hero (Turntable)
-    <media> Charater vid on loop </media>
-    <script src="turntbl.js"></script></div> (To control turntable rotation with click and drag)
+< aside> Map of Region </>
+< div> < h1>Tribe Name</>
+< p>Info Lorem....</></>
+< footer>
 
-<aside>Map of Region</aside>
-    <div> <h4>(h1) Tribe Name</h4>
-    <p>Info Lorem....</p></div>
-<footer>}
-
-///////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
 
 ## Field Trip Project (Thursday)
 
@@ -69,34 +69,32 @@ Colors grabbed from bag's image. Used as background for each sections question. 
 
 https://www.history.com/topics/native-american-history
 
-[<nav>
-<hero>
-Bag Image infgraphic point out each color
+< nav>
+< hero> Bag Image infgraphic point out each color
 ex: https://pin.it/7wDuhq1Ta
 
-<section> (or maybe grid)
-    How long? What the pattern means?</section>
-<section>
-    What Materials? How they made dye & dyed it?</section>]
+< section> (or maybe grid)
+How long? What the pattern means?</>
+< section>
+What Materials? How they made dye & dyed it?</>
+< footer>
 
 ##### something like this for: Bandolierinfo.html
 
 https://purple.com/purple-grid
 
-{<nav>
-<hero>
-main video + width: 100%
-
-<section> Left Vid1  
-    <aside>Right discription/answer</aside>
-    </section>
-<section> Left discription/answer
-    <aside>Right Vid2</aside>
-    </section>
-<section> Left Vid3  
-    <aside>Right discription/answer</aside>
-    </section>
-<section> Left discription/answer
-    <aside>Right Vid4</aside>
-    </section>
-<Footer>}
+< nav>
+< hero> main video + width: 100%
+< section> Left Vid1  
+ < aside> Right discription/answer</>
+</>
+< section> Left discription/answer
+< aside> Right Vid2</>
+</>
+< section> Left Vid3  
+ < aside> Right discription/answer</>
+</>
+< section> Left discription/answer
+< aside> Right Vid4</>
+</>
+< Footer>
