@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 5.6 Password</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/action_page.php" method="get">
+        <label for="usrname">Username Here</label>
+        <input type="text" name="usrname" id="usrname" required />
+
+        <label for="psw">Password Here</label>
+        <input
+          type="password"
+          name="psw"
+          id="psw"
+          pattern="(?=.*/d) (?=.*[a-z]) (?=.*[A-Z]) .{8,}"
+          title="Must Contain at least one number, one uppercase, one lowercase, and 8 characters"
+          required
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="message">
+      <h3>Password must contain the following:</h3>
+      <p id="letter" class="invalid">A <b>Lowercase</b>Letter</p>
+      <p id="capital" class="invalid">A <b>Uppercase</b>Letter</p>
+      <p id="number" class="invalid">A <b>Number</b></p>
+      <p id="length" class="invalid">Must Be<b>8</b>Characters</p>
+    </div>
+    <script type="password" src="js/password.js"></script>
+  </body>
+</html>

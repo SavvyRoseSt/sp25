@@ -1,0 +1,50 @@
+* {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:  'Lucida Sans Regular';
+}
+
+input{
+    width: auto;
+    padding: 10px;
+    border: 1px #bbb solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type=submit]{
+    background-color: darkseagreen;
+    color: black;
+}
+
+.container{
+    background-color: rgb(179, 218, 220);
+    padding: 20px;
+}
+
+#message{
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    font-size: small;
+    padding: 10px;
+}
+
+.valid:before{
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+}
+
+.invalid{
+    color: crimson;
+}
+
+.invalid:before{
+    position: relative;
+    left: -35px;
+    content: "&#10006;"
+}
