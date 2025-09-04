@@ -1,5 +1,5 @@
 *{
-background-color: black;
+background-color: paleturquoise;
 font-family: verdana;
 padding: 2px;
 }
@@ -31,4 +31,11 @@ ul.tabs li a {
   padding-right: 30px;
   color: #283618;
   font-size: large;
+}
+body{
+  max-width: max-content;
+}
+img{
+  max-width: 1000px;
+
 }
