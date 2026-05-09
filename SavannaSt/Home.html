@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Rainbow Navigation -->
+<nav class="rainbow-nav">
+     <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Portfolio Gallery -->
+<section class="portfolio">
+  <div class="project">
+    <img src="image1.jpg" alt="Project 1" />
+    <div class="hover-info">Project Title 1</div>
+  </div>
+  <div class="project">
+    <img src="image2.jpg" alt="Project 2" />
+    <div class="hover-info">Project Title 2</div>
+  </div>
+  <!-- Add more projects as needed -->
+</section>
+
+</body>
+<!-- Add this script at the bottom of your HTML file before </body> -->
+<script>
+  // Example: Smooth scroll to sections
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Example: Optional - toggle project details
+  document.querySelectorAll('.project').forEach(project => {
+    project.addEventListener('mouseenter', () => {
+      // Show overlay or extra info
+      project.querySelector('.hover-info').style.opacity = 1;
+    });
+    project.addEventListener('mouseleave', () => {
+      // Hide overlay or extra info
+      project.querySelector('.hover-info').style.opacity = 0;
+    });
+  });
+</script>
+</html>

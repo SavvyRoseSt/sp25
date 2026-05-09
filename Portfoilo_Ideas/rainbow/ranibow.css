@@ -1,5 +1,5 @@
 element.style {
-    background-image: url(https://proudandpunch.com.au/wp-content/uploads/2021/12/proud-and-punch-pops-in-various-yummy-flavours-1920x1080.jpg);
+
 }
 .lazy:not(img)[data-ll-status='loaded'], .lazy:not(img)[data-ll-status='entered'] {
     opacity: 1;
