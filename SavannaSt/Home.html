@@ -4,56 +4,43 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>My Portfolio</title>
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="Styles.css" />
 </head>
+
 <body>
+  <div class="bg-overlay"></div>
+  
+  <header class="nav">
+    <h1>Portfolio</h1>
+  </header>
 
-<!-- Rainbow Navigation -->
-<nav class="rainbow-nav">
-     <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+  <main class="gallery-container">
+    <section class="gallery-section" data-color="#FF6B6B">
+      <div class="work">
+        <img src="artwork-1.jpg" alt="Painting Series" />
+        <h2>Abstract Expressionism</h2>
+      </div>
+    </section>
 
-<!-- Portfolio Gallery -->
-<section class="portfolio">
-  <div class="project">
-    <img src="image1.jpg" alt="Project 1" />
-    <div class="hover-info">Project Title 1</div>
-  </div>
-  <div class="project">
-    <img src="image2.jpg" alt="Project 2" />
-    <div class="hover-info">Project Title 2</div>
-  </div>
-  <!-- Add more projects as needed -->
-</section>
+    <section class="gallery-section" data-color="#4ECDC4">
+      <div class="work">
+        <img src="artwork-2.jpg" alt="Digital Art" />
+        <h2>Digital Landscapes</h2>
+      </div>
+    </section>
 
+    <section class="gallery-section" data-color="#FFE66D">
+      <div class="work">
+        <img src="artwork-3.jpg" alt="Photography" />
+        <h2>Urban Photography</h2>
+      </div>
+    </section>
+
+    <section class="gallery-section" data-color="#95E1D3">
+      <div class="work">
+        <img src="artwork-4.jpg" alt="Sculpture" />
+        <h2>Mixed Media</h2>
+      </div>
+    </section>
+  </main>
 </body>
-<!-- Add this script at the bottom of your HTML file before </body> -->
-<script>
-  // Example: Smooth scroll to sections
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-
-  // Example: Optional - toggle project details
-  document.querySelectorAll('.project').forEach(project => {
-    project.addEventListener('mouseenter', () => {
-      // Show overlay or extra info
-      project.querySelector('.hover-info').style.opacity = 1;
-    });
-    project.addEventListener('mouseleave', () => {
-      // Hide overlay or extra info
-      project.querySelector('.hover-info').style.opacity = 0;
-    });
-  });
-</script>
-</html>
