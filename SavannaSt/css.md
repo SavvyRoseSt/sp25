@@ -1,8 +1,5 @@
-/* Basic Reset */
-* , h1, h2, h3, h4, h5, :root { margin: 0; padding: 0; box-sizing: border-box; 
-  font-family: "century gothic" ;
-   font-weight: bold;
-  
+/// Gradient stuff ///
+html {
         --wp--preset--aspect-ratio--square: 1;
         --wp--preset--aspect-ratio--4-3: 4/3;
         --wp--preset--aspect-ratio--3-4: 3/4;
@@ -330,7 +327,56 @@
       :root :where(.wp-block-pullquote) {
         font-size: 1.5em;
         line-height: 1.6;
-      }}
+      }
+    </>
+////////////////////////////////////////////////////////////
+
+\\\\\\\\\\\\\\\\\\ Stewart Style Simple Mint ////////////////////////
+*{
+background-color: paleturquoise;
+font-family: verdana;
+padding: 2px;
+}
+
+nav {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: auto;
+  margin-bottom: 20px;
+}
+ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  max-height: 20px;
+  align-items: center;
+}
+li a {
+  font-size: large;
+  color: #283618;
+  text-decoration: none;
+  padding-left: 30px;
+  display: flex;
+}
+ul.tabs li a {
+  display: flex;
+  padding-right: 30px;
+  color: #283618;
+  font-size: large;
+}
+body{
+  max-width: max-content;
+}
+img{
+  max-width: 1000px;
+
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+basic reset \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body { 
   font-family: 'Segoe UI', sans-serif; 
@@ -399,3 +445,5 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+///////////////////////////////////////////////////////////
